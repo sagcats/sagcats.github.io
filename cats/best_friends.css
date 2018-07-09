@@ -26,7 +26,7 @@ h2 {
   display: grid;
   grid-area: "header header" "left right" "footer footer";
   grid-template-columns: repeat(2, 500px);
-  grid-template-rows: 4fr 4fr 1fr;
+  grid-template-rows: 5% 1fr 5%;
   grid-gap: 30px;
   align-content: center;
 }
