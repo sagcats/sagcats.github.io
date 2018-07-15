@@ -26,7 +26,7 @@ h2 {
   display: grid;
   grid-area: "header header" "left right" "footer footer";
   grid-template-columns: repeat(2, 500px);
-  grid-template-rows: 4fr 4fr 1fr;
+  grid-template-rows: 5% 1fr 5%;
   grid-gap: 30px;
   align-content: center;
 }
@@ -45,12 +45,14 @@ h2 {
 }
 
 .footer {
-  background-color: "Blue";
-  color: "White";
+  background-color: blue;
+  color: beige;
   font-family: "Times New Roman";
   font-size: 30px;
   text-align: center;
   min-width: 1000px;
+  margin: 0px;
+  padding: 10px;
 }
 
 .box {
